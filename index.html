@@ -14,55 +14,26 @@
 
 	<body> 
 
-		<h2>Estilizando Formulários</h2>
+		<div id="container">
+			<img src="img/perfil.png" alt="">
 
-		<form action="">
-
-			<fieldset>
-
-				<legend>Detalhes de Contato</legend>
+			<form>
 
 				<div>
-					<label for="nome">Nome:</label>
-					<input type="text" name="nome" id="nome">
+					<input class="email" name="email" id="email" type="text" placeholder="Digite seu e-mail">
+				</div>
+					
+				<div>
+					<input class="senha" name="senha" id="senha" type="password" placeholder="Digite sua senha">
 				</div>
 
 				<div>
-					<label for="email">Email:</label>
-					<input type="text" name="email" id="email">
+					<input class="submit" type="submit" value="Logar">
 				</div>
 
-				<div>
-					<label for="url">URL:</label>
-					<input type="text" name="url" id="url">
-				</div>
-
-			</fieldset>
-
-			<fieldset>
-				<legend>Comentários</legend>
-				<div>
-					<label for="mensagem">Mensagem:</label>
-					<textarea name="mensagem" id="mensagem"></textarea>
-				</div>
-			</fieldset>
-
-			<fieldset>
-				<legend>Lembrar de mim</legend>
-				<div>
-					<label>
-						<input type="radio" class="radio" name="lembrar" id="sim">Sim
-					</label>
-				</div>
-
-				<div>
-					<label>
-						<input type="radio" class="radio" name="lembrar" id="nao">Não
-					</label>
-				</div>
-			</fieldset>
-		</form>
-
+			</form>
+		</div>
+			
 	</body>
 
 </html>
